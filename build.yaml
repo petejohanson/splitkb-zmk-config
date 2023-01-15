@@ -24,3 +24,5 @@ shield:
   - splitkb_aurora_lily58_right 
   - kyria_rev3_left
   - kyria_rev3_right 
+cmake-args:
+  - "-DCONFIG_ZMK_DISPLAY=y -DCONFIG_EC11=y -DCONFIG_EC11_TRIGGER_GLOBAL_THREAD=y -DCONFIG_ZMK_RGB_UNDERGLOW=y -DCONFIG_WS2812_STRIP=y"

@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
+    - name: petejohanson
       url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: shields/splitkb-aurora-helix
       import: app/west.yml
   self:
     path: config
